@@ -110,5 +110,14 @@
       .mb-n {
         display: none;
       }
+      .desc {
+        display: none;
+      }
+      .playlist {
+        display: none;
+      }
+      .underscore {
+        display: none;
+      }
  
 }
