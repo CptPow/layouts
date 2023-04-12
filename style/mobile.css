@@ -107,6 +107,10 @@
       .circle {
         border-radius: 50%;
       }
+      img {
+        width: 100px;
+        height: 100px;
+      }
       .mb-n {
         display: none;
       }
