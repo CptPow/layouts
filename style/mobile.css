@@ -1,127 +1,187 @@
 @media screen and (max-width: 552px) {
+  .container {
+    width: 100vw;
+    height: calc(100vh - 5rem);
+    display: flex;
+  }
+  footer {
+    width: 100vw;
+    height: 5rem;
+    background-color: #282828;
+  }
+  .menu {
+    width: 8%;
+    height: 100%;
+    z-index: -1;
+  }
+  .up-menu {
+    width: 100%;
+    height: calc(100% - 10rem);
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #000000;
+  }
+  .down-menu {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #000000;
+  }
+  .head {
+    width: 100%;
+    height: 10%;
+    background-color: #080b12;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .main {
+    width: 100%;
+    height: auto;
+    background-color: #141922;
+    padding: 8px;
+  }
+  .content {
+    width: 92%;
+    height: 100%;
+    overflow: auto;
+  }
+  .btn-upgrade {
+    background-color: #080b12;
+    color: white;
+    border-radius: 20px;
+    width: 170px;
+    height: 30px;
+    align-self: center;
+    font-size: 10px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  .nav-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .title-content {
+    margin: 10px;
+    color: #6b6e74;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .title-recently {
+    margin: 5px;
+    color: white;
+    font-weight: 500;
+  }
+  .film-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .film-card {
+    margin: 5px;
+    width: min-content;
+    text-align: center;
+  }
+  figcaption {
+    margin: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .subtitle {
+    color: #6b6e74;
+    font-weight: 500;
+    font-size: 11px;
+    margin: 3px;
+  }
+  .icon-menu {
+    margin: 2px;
+    padding: 2px;
+  }
+  .circle {
+    border-radius: 50%;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .mb-n {
+    display: none;
+  }
+  .desc {
+    display: none;
+  }
+  .playlist {
+    display: none;
+  }
+  .underscore {
+    display: none;
+  }
+  footer {
+    display: flex;
+  }
+  .fot-brano img {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    margin: 5px;
+  }
+  .fot-brano {
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+    height: 100%;
+    display: flex;
+  }
+  .song-title {
+    font-size: 12px;
+    align-self: center;
+  }
+  .title-song-footer {
+    color: white;
+    font-weight: 500;
+  }
+  .image-song {
+    margin: 10px;
+    align-self: center;
+    color: white;
+  }
+  .control {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+  }
+  .control-panel {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 12px;
+  }
+  .slider {
+width: 60%;
+  }
+  .volume {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    margin: 3px;
+    gap: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 10px;
+  }
+  .sliderdue{
+    width: 80%;
+    
+  }
   
-    .container {
-        width: 100vw;
-        height: calc(100vh - 5rem);
-        display: flex;
-      }
-      footer {
-        width: 100vw;
-        height: 5rem;
-        background-color: #282828;
-      }
-      .menu {
-        width: 8%;
-        height: 100%;
-        z-index: -1;
-      }
-      .up-menu {
-        width: 100%;
-        height: calc(100% - 10rem);
-        display: flex;
-        text-align: center;
-        justify-content: flex-start;
-        flex-direction: column;
-        background-color: #000000;
-      }
-      .down-menu {
-        width: 100%;
-        height: 10rem;
-        display: flex;
-        text-align: center;
-        justify-content: flex-end;
-        flex-direction: column;
-        background-color: #000000;
-      }
-      .head {
-        width: 100%;
-        height: 10%;
-        background-color: #080b12;
-        display: flex;
-        justify-content: flex-end;
-      }
-      .main{
-        width: 100%;
-        height: auto;
-        background-color: #141922;
-        padding: 8px;
-      }
-      .content{
-        width: 92%;
-        height: 100%;
-        overflow: auto;
-      }
-      .btn-upgrade {
-        background-color: #080b12;
-        color: white;
-        border-radius: 20px;
-        width: 170px;
-        height: 30px;
-        align-self: center;
-        font-size: 10px;
-        font-weight: 500;
-        margin-right: 10px;
-      }
-      .nav-content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .title-content {
-        margin: 10px;
-        color: #6b6e74;
-        font-size: 11px;
-        font-weight: 600;
-        margin-bottom: 20px;
-      }
-      .title-recently {
-        margin: 5px;
-        color: white;
-        font-weight: 500;
-      }
-      .film-container {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      .film-card {
-        margin: 5px;
-        width: min-content;
-        text-align: center;
-      }
-      figcaption {
-        margin: 5px;
-        color: white;
-        font-weight: 500;
-        font-size: 14px;
-      }
-      .subtitle {
-        color: #6b6e74;
-        font-weight: 500;
-        font-size: 11px;
-        margin: 3px;
-      }
-      .icon-menu {
-        margin: 2px;
-        padding: 2px;
-      }
-      .circle {
-        border-radius: 50%;
-      }
-      img {
-        width: 100px;
-        height: 100px;
-      }
-      .mb-n {
-        display: none;
-      }
-      .desc {
-        display: none;
-      }
-      .playlist {
-        display: none;
-      }
-      .underscore {
-        display: none;
-      }
- 
 }

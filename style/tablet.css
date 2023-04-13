@@ -177,4 +177,65 @@
     width: 100%;
     margin: 2px;
  }
+ footer {
+  display: flex;
+}
+.fot-brano img {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  margin: 5px;
+}
+.fot-brano {
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+  height: 100%;
+  display: flex;
+}
+.song-title {
+  font-size: 12px;
+  align-self: center;
+}
+.title-song-footer {
+  color: white;
+  font-weight: 500;
+}
+.image-song {
+  margin: 10px;
+  align-self: center;
+  color: white;
+}
+.control {
+  width: 40%;
+  height: 100%;
+  text-align: center;
+}
+.control-panel {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.slidecontainer {
+margin-top: 5px;
+}
+.volume {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  margin: 3px;
+  gap: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderdue{
+  width: 80%;
+}
+.artista {
+  display: flex;
+}
 }
