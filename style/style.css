@@ -4,7 +4,13 @@
     box-sizing: border-box;
     font-family: roboto;
     }
-   
+
+    //per firefox
+    body {
+      scrollbar-width: none;
+   }
+   //per chrome
+   ::-webkit-scrollbar { display: none; }
 
   
  

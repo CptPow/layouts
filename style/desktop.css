@@ -51,7 +51,7 @@
   .content {
     width: calc(100% - 15rem);
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
   }
   .btn-upgrade {
     background-color: #080b12;
@@ -231,7 +231,6 @@
     width: 30%;
     height: 100%;
     display: flex;
-    margin: 3px;
     gap: 15px;
     display: flex;
     justify-content: center;
