@@ -46,7 +46,6 @@
     width: 100%;
     height: 100%;
     background-color: #141922;
-    padding: 8px;
     overflow: auto;
   }
   .content {
@@ -226,14 +225,13 @@ margin-top: 5px;
   width: 30%;
   height: 100%;
   display: flex;
-  margin: 3px;
   gap: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .sliderdue{
-  width: 80%;
+  width: 60%;
 }
 .artista {
   display: flex;
