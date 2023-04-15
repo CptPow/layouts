@@ -1,19 +1,58 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: roboto;
-    }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: roboto;
+}
 
-    //per firefox
-    body {
-      scrollbar-width: none;
-   }
-   //per chrome
-   ::-webkit-scrollbar { display: none; }
+.image-song:hover {
+  cursor: pointer;
+}
 
-  
- 
-  
+i:hover {
+  cursor: pointer;
+}
+.timer-container:hover {
+  cursor: pointer;
+}
+.volume-container:hover {
+  cursor: pointer;
+}
+.title-content:hover {
+  cursor: pointer;
+}
+.btn-upgrade {
+  cursor: pointer;
+}
 
-  
+.over-play{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-sup {
+  width: 100%;
+  position: relative;
+}
+.overlay-img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.over-img {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+.image-sup:hover .overlay-img {
+  opacity: 1;
+}

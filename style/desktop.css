@@ -272,4 +272,11 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .over-img {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 26%;
+    left: 26%;
+  }
 }
