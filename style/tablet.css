@@ -199,6 +199,9 @@
 .title-song-footer {
   color: white;
   font-weight: 500;
+  margin-left: 3px;
+  margin-bottom: -5px;
+  font-size: 11px;
 }
 .image-song {
   margin: 10px;
@@ -216,24 +219,51 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-}
-.slidecontainer {
-margin-top: 5px;
+  gap: 10px;
+  font-size: 12px;
 }
 .volume {
   width: 30%;
   height: 100%;
   display: flex;
-  gap: 4px;
+  gap: 7px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-}
-.sliderdue{
-  width: 60%;
+  font-size: 12px;
 }
 .artista {
   display: flex;
+}
+.volume-container {
+  width: 30%;
+  border-radius: 2px;
+  background-color: #6b6e74;
+  margin-right: 10px;
+}
+.perc-volume{
+  width: 20%;
+  border: 2px solid white;
+  border-radius: 2px;
+  border-color: #ffffff;
+}
+.box-volume {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.timer-container{
+  height: 3px;
+  width: 60%;
+  border-radius: 2px;
+  background-color: #6b6e74;
+  align-self: center;
+}
+.minutes {
+  font-weight: 500;
+  color: white;
+  font-size: 8px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 }

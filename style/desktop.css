@@ -202,6 +202,7 @@
     font-weight: 500;
     margin-left: 3px;
     margin-bottom: -5px;
+    font-size: 11px;
   }
   .image-song {
     align-self: center;
@@ -219,25 +220,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-  }
-  .slidecontainer {
-    margin-top: 5px;
-  }
-  .slider {
-    width: 50%;
+    gap: 30px;
+    font-size: 12px;
   }
   .volume {
     width: 30%;
     height: 100%;
     display: flex;
-    gap: 15px;
+    gap: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-  }
-  .sliderdue {
-    width: 100%;
+    font-size: 12px;
   }
   .artista {
     display: flex;
@@ -246,5 +240,36 @@
   .image-song {
     display: flex;
     gap: 15px;
+  }
+  .volume-container {
+    width: 30%;
+    border-radius: 2px;
+    background-color: #6b6e74;
+    margin-right: 10px;
+  }
+  .perc-volume{
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 2px;
+    border-color: #ffffff;
+  }
+  .box-volume {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  .timer-container{
+    height: 3px;
+    width: 30%;
+    border-radius: 2px;
+    background-color: #6b6e74;
+    align-self: center;
+  }
+  .minutes {
+    font-weight: 500;
+    color: white;
+    font-size: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
