@@ -53,6 +53,16 @@ i:hover {
   top: 25%;
   left: 25%;
 }
-.image-sup:hover .overlay-img {
+.overlay-img:hover {
   opacity: 1;
 }
+.image-sup:first-child:hover{
+  opacity: 80%;
+}
+p:hover {
+  cursor: pointer;
+}
+.desc:hover {
+  cursor: pointer;
+}
+

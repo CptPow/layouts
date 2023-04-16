@@ -8,11 +8,13 @@
     width: 100vw;
     height: 5rem;
     background-color: #282828;
+    z-index: 5;
+    position: relative;
   }
   .menu {
     width: 8%;
     height: 100%;
-    z-index: -1;
+    
   }
   .up-menu {
     width: 100%;

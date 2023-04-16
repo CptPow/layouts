@@ -12,7 +12,7 @@
   .menu {
     width: 15rem;
     height: 100%;
-    z-index: -1;
+    
   }
   .up-menu {
     padding: 10px;
@@ -178,6 +178,8 @@
   }
   footer {
     display: flex;
+    z-index: 5;
+    position: relative;
   }
   .fot-brano img {
     width: 30px;
