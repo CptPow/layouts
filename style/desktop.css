@@ -281,4 +281,8 @@
     top: 26%;
     left: 26%;
   }
+  .pallino{
+    position: absolute;
+    left: 40%;
+  }
 }

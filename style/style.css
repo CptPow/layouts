@@ -21,8 +21,9 @@ i:hover {
 .title-content:hover {
   cursor: pointer;
 }
-.btn-upgrade {
+.btn-upgrade:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .over-play{
@@ -61,8 +62,29 @@ i:hover {
 }
 p:hover {
   cursor: pointer;
+  color: white;
 }
 .desc:hover {
   cursor: pointer;
+  color: white;
 }
-
+.title-content:hover {
+color: white;
+}
+.evidenza {
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  border: 1px solid green;
+}
+.perc-volume:hover {
+  border-color: green;
+}
+.pallino{
+  position: absolute;
+  left: 30%;
+}
+.box-volume {
+  position: relative;
+  z-index: 7;
+}

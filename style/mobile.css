@@ -208,5 +208,16 @@
     font-size: 8px;
     margin: 2px;
   }
+  .pallino{
+    position: absolute;
+    left: 30%;
+    align-self: center;
+  }
+  .overlay-img{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    margin-top: 2px;
+  }
   
 }
