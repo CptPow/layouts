@@ -190,9 +190,11 @@
     align-items: center;
     font-size: 10px;
     font-size: 13px;
+    position: relative;
   }
   .volume-container {
     width: 50%;
+    height: 3px;
     border-radius: 2px;
     background-color: #6b6e74;
   }
@@ -211,7 +213,6 @@
   .pallino{
     position: absolute;
     left: 30%;
-    align-self: center;
   }
   .overlay-img{
     position: absolute;
@@ -219,5 +220,9 @@
     cursor: pointer;
     margin-top: 2px;
   }
-  
+  .pallino-volume {
+    position: absolute;
+    left: 10%;
+    top: 38%;
+  }
 }

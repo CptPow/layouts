@@ -15,9 +15,6 @@ i:hover {
 .timer-container:hover {
   cursor: pointer;
 }
-.volume-container:hover {
-  cursor: pointer;
-}
 .title-content:hover {
   cursor: pointer;
 }
@@ -26,7 +23,7 @@ i:hover {
   transform: scale(1.1);
 }
 
-.over-play{
+.over-play {
   display: block;
   width: 100%;
   height: auto;
@@ -36,7 +33,7 @@ i:hover {
   width: 100%;
   position: relative;
 }
-.overlay-img{
+.overlay-img {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -57,7 +54,7 @@ i:hover {
 .overlay-img:hover {
   opacity: 1;
 }
-.image-sup:first-child:hover{
+.image-sup:first-child:hover {
   opacity: 80%;
 }
 p:hover {
@@ -69,7 +66,7 @@ p:hover {
   color: white;
 }
 .title-content:hover {
-color: white;
+  color: white;
 }
 .evidenza {
   margin-right: auto;
@@ -80,11 +77,49 @@ color: white;
 .perc-volume:hover {
   border-color: green;
 }
-.pallino{
+.pallino {
   position: absolute;
   left: 30%;
 }
+
 .box-volume {
   position: relative;
-  z-index: 7;
 }
+.volume {
+  
+  align-items: center;
+}
+.overlay-pal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.icon-volume {
+  
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+}
+.volume-destra {
+  
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+  justify-content: left;
+}
+
+
+
